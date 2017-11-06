@@ -57,8 +57,11 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int resultado = exponenciacaoDC(2,3);
-        System.out.println("Resultado:"+resultado);
+         int resultado = exponenciacao(2,3);
+        System.out.println("Exponenciação:"+resultado);
+        
+        resultado = exponenciacaoDC(2,3);
+        System.out.println("Exponenciação DC:"+resultado);
     }
     
 }
