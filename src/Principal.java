@@ -50,8 +50,7 @@ public class Principal {
             return an;            
         }       
     }
-    
-    
+        
     /**
      * @param args the command line arguments
      */
